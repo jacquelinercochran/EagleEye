@@ -3,27 +3,72 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A008B492573FF56003ED787 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A008B482573FF56003ED787 /* GoogleService-Info.plist */; };
+		0A008B4B25740C50003ED787 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A008B4A25740C50003ED787 /* LocationListViewController.swift */; };
+		0A008B4D2574167C003ED787 /* LocationListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A008B4C2574167C003ED787 /* LocationListTableViewCell.swift */; };
+		0A008B4F25742222003ED787 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A008B4E25742222003ED787 /* LocationDetailViewController.swift */; };
+		0A008B5125742327003ED787 /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A008B5025742327003ED787 /* OpeningViewController.swift */; };
+		0A008B5325743A7E003ED787 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A008B5225743A7E003ED787 /* Location.swift */; };
+		0A008B5525743B28003ED787 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A008B5425743B28003ED787 /* Locations.swift */; };
+		0A008B5725743CD0003ED787 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A008B5625743CD0003ED787 /* Post.swift */; };
+		0A008B5D25752414003ED787 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A008B5C25752413003ED787 /* PostViewController.swift */; };
+		0A008B5F257524A9003ED787 /* LocationDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A008B5E257524A9003ED787 /* LocationDetailTableViewCell.swift */; };
+		0A008B612575DE8A003ED787 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A008B602575DE8A003ED787 /* Posts.swift */; };
+		0A008B632576CC93003ED787 /* UIView+addBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A008B622576CC93003ED787 /* UIView+addBorder.swift */; };
+		0A008B652576CCEB003ED787 /* UIBarButtonItem+hide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A008B642576CCEB003ED787 /* UIBarButtonItem+hide.swift */; };
+		0A008B6B25796271003ED787 /* EagleUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A008B6A25796271003ED787 /* EagleUser.swift */; };
+		0A008B6D25796336003ED787 /* EagleUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A008B6C25796336003ED787 /* EagleUsers.swift */; };
+		0A008B6F25796C70003ED787 /* LikedPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A008B6E25796C70003ED787 /* LikedPost.swift */; };
+		0A008B7125796ED8003ED787 /* LikedBuilding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A008B7025796ED8003ED787 /* LikedBuilding.swift */; };
+		0A008B73257975D3003ED787 /* LikedPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A008B72257975D3003ED787 /* LikedPosts.swift */; };
+		0A008B77257D49BC003ED787 /* LikedBuildings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A008B76257D49BC003ED787 /* LikedBuildings.swift */; };
+		0A6B14032580862F004AADA8 /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B14022580862F004AADA8 /* UIViewController+alert.swift */; };
 		0A895B152573F8F600DBE2AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A895B142573F8F600DBE2AE /* AppDelegate.swift */; };
 		0A895B172573F8F600DBE2AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A895B162573F8F600DBE2AE /* SceneDelegate.swift */; };
-		0A895B192573F8F600DBE2AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A895B182573F8F600DBE2AE /* ViewController.swift */; };
+		0A895B192573F8F600DBE2AE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A895B182573F8F600DBE2AE /* LoginViewController.swift */; };
 		0A895B1C2573F8F600DBE2AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A895B1A2573F8F600DBE2AE /* Main.storyboard */; };
 		0A895B1E2573F8F700DBE2AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A895B1D2573F8F700DBE2AE /* Assets.xcassets */; };
 		0A895B212573F8F700DBE2AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A895B1F2573F8F700DBE2AE /* LaunchScreen.storyboard */; };
+		AD714BE3A85E44FD22111BE7 /* Pods_EagleEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDE31B325A24FB5935E46E8 /* Pods_EagleEye.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A008B482573FF56003ED787 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0A008B4A25740C50003ED787 /* LocationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListViewController.swift; sourceTree = "<group>"; };
+		0A008B4C2574167C003ED787 /* LocationListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListTableViewCell.swift; sourceTree = "<group>"; };
+		0A008B4E25742222003ED787 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
+		0A008B5025742327003ED787 /* OpeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewController.swift; sourceTree = "<group>"; };
+		0A008B5225743A7E003ED787 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		0A008B5425743B28003ED787 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		0A008B5625743CD0003ED787 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		0A008B5C25752413003ED787 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		0A008B5E257524A9003ED787 /* LocationDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailTableViewCell.swift; sourceTree = "<group>"; };
+		0A008B602575DE8A003ED787 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		0A008B622576CC93003ED787 /* UIView+addBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addBorder.swift"; sourceTree = "<group>"; };
+		0A008B642576CCEB003ED787 /* UIBarButtonItem+hide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+hide.swift"; sourceTree = "<group>"; };
+		0A008B6A25796271003ED787 /* EagleUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EagleUser.swift; sourceTree = "<group>"; };
+		0A008B6C25796336003ED787 /* EagleUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EagleUsers.swift; sourceTree = "<group>"; };
+		0A008B6E25796C70003ED787 /* LikedPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedPost.swift; sourceTree = "<group>"; };
+		0A008B7025796ED8003ED787 /* LikedBuilding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedBuilding.swift; sourceTree = "<group>"; };
+		0A008B72257975D3003ED787 /* LikedPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedPosts.swift; sourceTree = "<group>"; };
+		0A008B76257D49BC003ED787 /* LikedBuildings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedBuildings.swift; sourceTree = "<group>"; };
+		0A6B140125808619004AADA8 /* UIViewController+alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
+		0A6B14022580862F004AADA8 /* UIViewController+alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIViewController+alert.swift"; path = "../../../Snacktacular/Snacktacular/Utilities/UIViewController+alert.swift"; sourceTree = "<group>"; };
 		0A895B112573F8F600DBE2AE /* EagleEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EagleEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A895B142573F8F600DBE2AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A895B162573F8F600DBE2AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0A895B182573F8F600DBE2AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A895B182573F8F600DBE2AE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0A895B1B2573F8F600DBE2AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A895B1D2573F8F700DBE2AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A895B202573F8F700DBE2AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A895B222573F8F700DBE2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2747E31BF33692A1722CEE1B /* Pods-EagleEye.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EagleEye.debug.xcconfig"; path = "Target Support Files/Pods-EagleEye/Pods-EagleEye.debug.xcconfig"; sourceTree = "<group>"; };
+		83DBE5C38B548BBB9926FF6C /* Pods-EagleEye.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EagleEye.release.xcconfig"; path = "Target Support Files/Pods-EagleEye/Pods-EagleEye.release.xcconfig"; sourceTree = "<group>"; };
+		DDDE31B325A24FB5935E46E8 /* Pods_EagleEye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EagleEye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +76,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD714BE3A85E44FD22111BE7 /* Pods_EagleEye.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A6B13FC258085C3004AADA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A008B6E25796C70003ED787 /* LikedPost.swift */,
+				0A008B72257975D3003ED787 /* LikedPosts.swift */,
+				0A008B7025796ED8003ED787 /* LikedBuilding.swift */,
+				0A008B76257D49BC003ED787 /* LikedBuildings.swift */,
+				0A008B6A25796271003ED787 /* EagleUser.swift */,
+				0A008B6C25796336003ED787 /* EagleUsers.swift */,
+				0A008B5625743CD0003ED787 /* Post.swift */,
+				0A008B602575DE8A003ED787 /* Posts.swift */,
+				0A008B5225743A7E003ED787 /* Location.swift */,
+				0A008B5425743B28003ED787 /* Locations.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A6B13FD258085DB004AADA8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A895B182573F8F600DBE2AE /* LoginViewController.swift */,
+				0A008B4A25740C50003ED787 /* LocationListViewController.swift */,
+				0A008B4E25742222003ED787 /* LocationDetailViewController.swift */,
+				0A008B5025742327003ED787 /* OpeningViewController.swift */,
+				0A008B5C25752413003ED787 /* PostViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0A6B13FF258085F8004AADA8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A008B4C2574167C003ED787 /* LocationListTableViewCell.swift */,
+				0A008B5E257524A9003ED787 /* LocationDetailTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A6B140025808618004AADA8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0A6B140125808619004AADA8 /* UIViewController+alert.swift */,
+				0A6B14022580862F004AADA8 /* UIViewController+alert.swift */,
+				0A008B622576CC93003ED787 /* UIView+addBorder.swift */,
+				0A008B642576CCEB003ED787 /* UIBarButtonItem+hide.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		0A895B082573F8F600DBE2AE = {
 			isa = PBXGroup;
 			children = (
 				0A895B132573F8F600DBE2AE /* EagleEye */,
 				0A895B122573F8F600DBE2AE /* Products */,
+				D828921CABBF01DABA800D6A /* Pods */,
+				69B2828A7947F2F95E35D2F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +155,34 @@
 			children = (
 				0A895B142573F8F600DBE2AE /* AppDelegate.swift */,
 				0A895B162573F8F600DBE2AE /* SceneDelegate.swift */,
-				0A895B182573F8F600DBE2AE /* ViewController.swift */,
-				0A895B1A2573F8F600DBE2AE /* Main.storyboard */,
+				0A6B13FC258085C3004AADA8 /* Models */,
+				0A6B13FD258085DB004AADA8 /* Controllers */,
+				0A6B13FF258085F8004AADA8 /* Views */,
+				0A6B140025808618004AADA8 /* Utilities */,
 				0A895B1D2573F8F700DBE2AE /* Assets.xcassets */,
+				0A895B1A2573F8F600DBE2AE /* Main.storyboard */,
 				0A895B1F2573F8F700DBE2AE /* LaunchScreen.storyboard */,
 				0A895B222573F8F700DBE2AE /* Info.plist */,
+				0A008B482573FF56003ED787 /* GoogleService-Info.plist */,
 			);
 			path = EagleEye;
+			sourceTree = "<group>";
+		};
+		69B2828A7947F2F95E35D2F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDDE31B325A24FB5935E46E8 /* Pods_EagleEye.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D828921CABBF01DABA800D6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2747E31BF33692A1722CEE1B /* Pods-EagleEye.debug.xcconfig */,
+				83DBE5C38B548BBB9926FF6C /* Pods-EagleEye.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A895B252573F8F700DBE2AE /* Build configuration list for PBXNativeTarget "EagleEye" */;
 			buildPhases = (
+				F1342E4958E47BA02DA3D819 /* [CP] Check Pods Manifest.lock */,
 				0A895B0D2573F8F600DBE2AE /* Sources */,
 				0A895B0E2573F8F600DBE2AE /* Frameworks */,
 				0A895B0F2573F8F600DBE2AE /* Resources */,
+				8E1DF7BBC652825FB80CDD21 /* [CP] Embed Pods Frameworks */,
+				6B1C7759C357072DCD0F45A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A895B212573F8F700DBE2AE /* LaunchScreen.storyboard in Resources */,
+				0A008B492573FF56003ED787 /* GoogleService-Info.plist in Resources */,
 				0A895B1E2573F8F700DBE2AE /* Assets.xcassets in Resources */,
 				0A895B1C2573F8F600DBE2AE /* Main.storyboard in Resources */,
 			);
@@ -133,14 +255,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B1C7759C357072DCD0F45A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EagleEye/Pods-EagleEye-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EagleEye/Pods-EagleEye-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EagleEye/Pods-EagleEye-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E1DF7BBC652825FB80CDD21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EagleEye/Pods-EagleEye-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EagleEye/Pods-EagleEye-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EagleEye/Pods-EagleEye-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1342E4958E47BA02DA3D819 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EagleEye-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A895B0D2573F8F600DBE2AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A895B192573F8F600DBE2AE /* ViewController.swift in Sources */,
+				0A008B5D25752414003ED787 /* PostViewController.swift in Sources */,
+				0A6B14032580862F004AADA8 /* UIViewController+alert.swift in Sources */,
+				0A008B612575DE8A003ED787 /* Posts.swift in Sources */,
+				0A008B5525743B28003ED787 /* Locations.swift in Sources */,
+				0A008B4D2574167C003ED787 /* LocationListTableViewCell.swift in Sources */,
+				0A895B192573F8F600DBE2AE /* LoginViewController.swift in Sources */,
+				0A008B5325743A7E003ED787 /* Location.swift in Sources */,
+				0A008B73257975D3003ED787 /* LikedPosts.swift in Sources */,
+				0A008B5125742327003ED787 /* OpeningViewController.swift in Sources */,
 				0A895B152573F8F600DBE2AE /* AppDelegate.swift in Sources */,
+				0A008B652576CCEB003ED787 /* UIBarButtonItem+hide.swift in Sources */,
+				0A008B4B25740C50003ED787 /* LocationListViewController.swift in Sources */,
+				0A008B77257D49BC003ED787 /* LikedBuildings.swift in Sources */,
+				0A008B7125796ED8003ED787 /* LikedBuilding.swift in Sources */,
+				0A008B6D25796336003ED787 /* EagleUsers.swift in Sources */,
+				0A008B4F25742222003ED787 /* LocationDetailViewController.swift in Sources */,
 				0A895B172573F8F600DBE2AE /* SceneDelegate.swift in Sources */,
+				0A008B5F257524A9003ED787 /* LocationDetailTableViewCell.swift in Sources */,
+				0A008B5725743CD0003ED787 /* Post.swift in Sources */,
+				0A008B632576CC93003ED787 /* UIView+addBorder.swift in Sources */,
+				0A008B6F25796C70003ED787 /* LikedPost.swift in Sources */,
+				0A008B6B25796271003ED787 /* EagleUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +482,7 @@
 		};
 		0A895B262573F8F700DBE2AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2747E31BF33692A1722CEE1B /* Pods-EagleEye.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +501,7 @@
 		};
 		0A895B272573F8F700DBE2AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83DBE5C38B548BBB9926FF6C /* Pods-EagleEye.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
